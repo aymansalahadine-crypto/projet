@@ -1,7 +1,7 @@
  #include<stdio.h>
 int main(){
 
-int n , i , M , s ,  j ;
+int n , i , M , s , cpt ,  j ;
     do{
     printf("saisir un entier positif : ");
     scanf("%d",&n);
@@ -19,7 +19,7 @@ int n , i , M , s ,  j ;
 
         }
         M=s/cpt;
-         printf("la moyenne des entiers paires est : %d\n",moy);
+         printf("la moyenne des entiers paires est : %d\n",M);
 
 
 return 0;}
